@@ -25,6 +25,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 XTENDED_BUILD_TYPE := OFFICIAL
 DEVICE_MAINTAINERS="Dhinesh"
 
+#OFFICIAL STUFFS
+TARGET_FACE_UNLOCK_SUPPORTED := true
+OCTAVI_DEVICE_MAINTAINER := Yukki159 
+OCTAVI_BUILD_TYPE := Official
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
