@@ -75,6 +75,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.sdm660
 
+# Hardware
+PRODUCT_BOARD_PLATFORM := msm8998
+PRODUCT_USES_QCOM_HARDWARE := true
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8998/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8998/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8998/media
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
@@ -105,7 +114,8 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/msm8998
 
 # Thermal
 PRODUCT_COPY_FILES += \
