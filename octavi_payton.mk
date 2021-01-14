@@ -26,6 +26,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 OCTAVI_DEVICE_MAINTAINER := Yukki159 
 OCTAVI_BUILD_TYPE := Official
 
+#GAPPS
+WITH_GAPPS := true
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
