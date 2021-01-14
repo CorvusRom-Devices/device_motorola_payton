@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_payton.mk
+    $(LOCAL_DIR)/octavi_payton.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_payton-user \
-    xtended_payton-userdebug \
-    xtended_payton-eng
+    octavi_payton-user \
+    octavi_payton-userdebug \
+    octavi_payton-eng
 

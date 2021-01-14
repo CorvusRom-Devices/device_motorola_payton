@@ -16,14 +16,10 @@
 
 # Inherit some common Superior stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 #Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Official MSM-Xtended
-XTENDED_BUILD_TYPE := OFFICIAL
-DEVICE_MAINTAINERS="Dhinesh"
 
 #OFFICIAL STUFFS
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -77,7 +73,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := payton
-PRODUCT_NAME := xtended_payton
+PRODUCT_NAME := octavi_payton
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto X4
 PRODUCT_MANUFACTURER := Motorola
