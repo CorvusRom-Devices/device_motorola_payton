@@ -41,6 +41,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.cmc=false \
     ro.vendor.sdk.sensors.gestures=false
 
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.xtended.maintainer=Dhinesh
+# Enable blurs
+-PRODUCT_PRODUCT_PROPERTIES += \
+-    ro.surface_flinger.supports_background_blur=0 \
