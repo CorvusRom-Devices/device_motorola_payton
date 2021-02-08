@@ -14,17 +14,19 @@
 # limitations under the License.
 #
 
-# Inherit some common Superior stuff.
+# Inherit some common Corvus stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 #Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-#OFFICIAL STUFFS
+#Faceunlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
-OCTAVI_DEVICE_MAINTAINER := Yukki159 
-OCTAVI_BUILD_TYPE := Official
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.corvus.maintainer=Yukki159
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -73,7 +75,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := payton
-PRODUCT_NAME := octavi_payton
+PRODUCT_NAME := corvus_payton
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto X4
 PRODUCT_MANUFACTURER := Motorola
