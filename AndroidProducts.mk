@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_payton.mk
+    $(LOCAL_DIR)/corvus_payton.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_payton-user \
-    octavi_payton-userdebug \
-    octavi_payton-eng
+    corvus_payton-user \
+    corvus_payton-userdebug \
+    corvus_payton-eng
 
