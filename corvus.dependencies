@@ -1,32 +1,32 @@
 [
   {
     "remote":      "github",
-    "repository":  "Xtended-Devices/device_motorola_sdm660-common",
+    "repository":  "CorvusRom-Devices/android_device_motorola_sdm660-common",
     "target_path": "device/motorola/sdm660-common",
-    "branch":      "xr"
+    "branch":      "11"
   },
   {
     "remote":      "github",
-    "repository":  "Xtended-Devices/kernel_motorola_payton",
+    "repository":  "CorvusRom-Devices/kernel_motorola_payton",
     "target_path": "kernel/motorola/msm8998",
-    "branch":      "xr"
+    "branch":      "11"
   },
   {
     "remote":      "github",
-    "repository":  "Xtended-Devices/vendor_motorola_payton",
+    "repository":  "CorvusRom-Devices/vendor_motorola_payton",
     "target_path": "vendor/motorola",
-    "branch":      "xr"
+    "branch":      "11"
   },
   {
     "remote":      "github",
     "repository":  "LineageOS/android_external_bson",
     "target_path": "external/bson",
-    "branch":      "lineage-18.0"
+    "branch":      "lineage-18.1"
   },
   {
     "remote":      "github",
     "repository":  "LineageOS/android_system_qcom",
     "target_path": "system/qcom",
-    "branch":      "lineage-18.0"
+    "branch":      "lineage-18.1"
   }
 ]
