@@ -1,4 +1,5 @@
-export RAVEN_LAIR=OFFICIAL
+export RAVEN_LAIR=Official
+export USE_GAPPS=true
 git clone https://github.com/LineageOS/android_external_bson.git -b lineage-18.1 external/bson
 git clone https://github.com/LineageOS/android_system_qcom -b lineage-18.1 system/qcom
 rm -rf hardware/qcom-caf/msm8998
